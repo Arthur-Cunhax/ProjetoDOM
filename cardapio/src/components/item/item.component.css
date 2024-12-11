@@ -1,0 +1,20 @@
+*{
+  display: flex;
+  margin: 10px;
+  padding: 0;
+}
+.conteudo{
+  flex-direction: row;
+  background-color: blue;
+  align-items: center;
+  justify-content: space-between;
+  max-width: fit-content;
+  border-radius: 30px;
+  box-sizing: border;
+}
+.texto{
+  flex-direction: column;
+}
+image{
+  position: right;
+}
